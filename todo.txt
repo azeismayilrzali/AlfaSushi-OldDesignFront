@@ -1,0 +1,38 @@
+- width 767 problem var real life testing is required
+
+
+FUTURE UPDATES:
+- mobile menu: when selecting hot rolls for example make it center in the horizontal scroll bar for food menu.
+- deyekki hot rolls bolmesindedi refresh edende sehifeni cold rolls (default verilen) bolmesine qayitmamalidi hotda qalmalidi
+- mobile viewda back to menu button 1 defe click olunandan sonra rengi evvelkine qayitmir
+-
+
+
+
+
+About page:
+- desktop view hormetle alfa sushi biraz asagida +
+- footer elave ele +
+- butun kontentlerin sol terefi logoya paralel olsun (column-wise)
+- hormetle alfa sushi biraz asagida +
+
+
+
+
+index.php:
+- hero yazisinin fon size kicilmelidi responsivliyde  +
+- make grid as Avanqard  +
+- phone number click olan kimi actual zeng  +
+- logonun margin veya paddingleri +
+- 767 viewsunda bug var 767 olmalidi 766 kimi 
+- testing also rotate screen. 
+
+
+
+
+
+
+
+Teklifler.
+
+-About us'in headinglerinin animasiyasi slide ola biler (biri sagdan biri soldan gelib)

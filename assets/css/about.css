@@ -1,0 +1,289 @@
+
+
+/* .aboutPageHeading{
+
+} */
+
+.aboutInfo{
+    /* position: static; */
+    top: 0px;
+    left: 0;
+}
+
+.aboutPageContent h3{
+    color: var(--first-color);
+    margin-bottom: 1rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+}
+
+.aboutPageMain{
+    width: 100%;
+    /* margin: 5rem 13rem; */
+}
+
+
+.aboutPageContent p{
+    margin-bottom: 1rem;
+    color: #231F20;
+    /* font-size: var(--normal-font-size); */
+}
+
+.aboutPageHeading{
+    position: relative;
+    width: 957px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    
+    
+}
+
+.aboutPageHeading img{
+   
+    width: 39%;
+    
+}
+
+.aboutPageHeading h1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-size: var(--biggest-font-size);
+    font-family: "Manrope", sans-serif;
+}
+
+#endHeading{
+    text-align: right;
+    margin-top: 3rem;
+}
+
+.aboutPageMain{
+    display: flex;
+    margin-top: 6rem;
+}
+
+
+.aboutPageImage{
+    width:  268px;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    margin-right: auto;
+    /* justify-content: space-between; */
+}
+
+.aboutPageImage img{
+    width: 100%;
+    margin-bottom: 15%;
+
+}
+
+.aboutPageContent{
+    width: 500px;
+    margin-left: auto;
+    margin-right: 10rem;
+
+}
+
+
+
+
+
+ @media screen and (max-width:1028px){
+
+    .aboutInfo{
+        margin-right: var(--mb-3);
+        margin-left: var(--mb-3);
+    }
+    .aboutPageHeading h1{
+        font-size: 40px;
+    }
+
+    .aboutPageHeading{
+        width: 100%;
+    }
+
+    .aboutPageMain{
+        width: 100%;
+    }
+
+    .aboutPageContent{
+        width: 70%;
+        margin-right: 4rem;
+    }
+} 
+
+
+
+
+@media screen and (max-width:826px){
+    .aboutPageHeading h1{
+        font-size: 35px;
+    }
+
+   .aboutPageImage{
+       margin-top: 10rem;
+       width: 300px;
+   }
+
+   .aboutPageHeading{
+       margin-top: 20%;
+   }
+
+
+}
+
+
+
+@media screen and (max-width:720px){
+
+    .aboutPageHeading img{
+        display: none;
+    }
+
+    .aboutPageImage{
+        display: none;
+    }
+
+    .aboutPageHeading h1{
+        width: 500px;
+        margin: auto;
+        font-size: 27px;
+    }
+
+    .aboutPageHeading{
+        margin-top: 25%;
+    }
+
+    
+    .aboutPageHeading{
+        margin-top: 30%;
+    } 
+    .aboutPageContent {
+        width: 500px;
+        margin: auto;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width:468px){
+   .aboutPageHeading h1{
+       font-size: 24px;
+   }
+
+   .aboutPageHeading {
+       margin-top: 40%;
+   }
+
+
+
+}
+
+@media screen and (max-width:334px){
+    .aboutPageHeading h1{
+        font-size: 21px;
+    }
+ 
+    .aboutPageHeading {
+        margin-top: 45%;
+    }
+ 
+    
+ 
+ }
+
+
+ @media screen and (max-width:300px){
+    .aboutPageHeading h1{
+        font-size: 18px;
+    }
+ 
+    
+ 
+ }
+
+
+/* @media screen and (max-width:1020px){
+    .aboutPageHeading h1{
+        font-size: 24px;
+    }
+
+    .aboutPageHeading img{
+        margin-right: 0;
+    }
+
+    .aboutPageImage{
+        width: 28%;
+        margin-bottom: 30%;
+    }
+    
+} */
+
+/* @media screen and (max-width: 891px){
+    .aboutPageHeading h1{
+        font-size: 20px;
+    }
+    .aboutPageHeading img{
+        width: 35%;
+    }
+
+    .aboutPageImage{
+        width: 32%;
+        margin-bottom: 45%;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .aboutPageHeading {
+        margin: 50px 250px;
+    }
+
+    .aboutPageContent{
+        margin: 50px 150px;
+        width: 100%;
+
+    }
+    .aboutPageImage{
+        display: none;
+    }
+
+
+  
+    
+}
+
+@media screen and (max-width: 560px){
+        .aboutPageHeading{
+            margin: 50px 150px;
+        }
+}
+
+
+@media screen and (max-width: 430px){
+    .aboutPageHeading h1{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .aboutPageHeading img{
+        display: none;
+    }
+
+    .aboutPageHeading{
+        margin: 50px 150px;
+    }
+} */
+
+
+
+
+

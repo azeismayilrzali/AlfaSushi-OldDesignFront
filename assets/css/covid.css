@@ -1,0 +1,93 @@
+
+.covidInfo{
+    width: 965px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+}
+
+.covidHeading{
+    margin-bottom: 5rem;
+   
+}
+
+.covidContent{
+    width: 450px;
+}
+
+.covidHeading h1{
+    font-size: 34px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+}
+
+.covidContent h3{
+    color: var(--first-color);
+    margin-bottom: 1rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+}
+
+.covidContent p{
+    margin-bottom: 1rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    color: #000;
+
+}
+
+#endHeading{
+    text-align: right;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .covidInfo{
+        width: 100%;
+        padding-left: 1.5rem;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .covidInfo{
+        margin-top: 16.5rem;
+    }
+}
+
+
+@media screen and (max-width: 697px) {
+   .covidHeading h1{
+       font-size: 30px;
+   }
+}
+
+
+@media screen and (max-width: 557px) {
+    .covidContent{
+        padding-right: 1rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 429px) {
+    .covidInfo{
+       margin-top: 13rem;
+        
+    }
+
+    .covidHeading h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 315px){
+    .covidHeading h1{
+        font-size: 22px;
+    }
+}

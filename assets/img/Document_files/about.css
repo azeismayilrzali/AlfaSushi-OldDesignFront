@@ -1,0 +1,149 @@
+
+
+/* .aboutPageHeading{
+
+} */
+
+
+
+.aboutPageContent h3{
+    color: var(--first-color);
+    margin-bottom: 1rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+}
+
+.aboutPageMain{
+    width: 100%;
+    /* margin: 5rem 13rem; */
+}
+
+
+.aboutPageContent p{
+    margin-bottom: 1rem;
+    color: #231F20;
+}
+
+.aboutPageHeading{
+    margin: 7% 14%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutPageHeading img{
+    width: 40%;
+    margin-right: 10%;
+}
+
+.aboutPageHeading h1{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Manrope", sans-serif;
+}
+
+#endHeading{
+    text-align: right;
+}
+
+.aboutPageMain{
+    display: flex;
+}
+
+
+.aboutPageImage{
+    width:  20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    /* justify-content: space-between; */
+}
+
+.aboutPageImage img{
+    width: 100%;
+    margin-bottom: 15%;
+
+}
+
+.aboutPageContent{
+    width: 35%;
+    margin: 7% 14%;
+
+}
+
+@media screen and (max-width:1128px){
+    .aboutPageHeading h1{
+        font-size: 28px;
+    }
+
+    .aboutPageHeading img{
+        margin-right: 5%;
+    }
+
+    .aboutPageImage{
+        width: 24%;
+    }
+}
+
+
+@media screen and (max-width:1020px){
+    .aboutPageHeading h1{
+        font-size: 24px;
+    }
+
+    .aboutPageHeading img{
+        margin-right: 0;
+    }
+
+    .aboutPageImage{
+        width: 28%;
+    }
+    
+}
+
+@media screen and (max-width: 891px){
+    .aboutPageHeading h1{
+        font-size: 20px;
+    }
+    .aboutPageHeading img{
+        width: 35%;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .aboutPageHeading {
+        margin: 15% 10%;
+    }
+
+  
+    
+}
+
+@media screen and (max-width: 560px){
+        .aboutPageHeading{
+            margin: 25% 7%;
+        }
+}
+
+
+@media screen and (max-width: 430px){
+    .aboutPageHeading h1{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .aboutPageHeading img{
+        display: none;
+    }
+
+    .aboutPageHeading{
+        margin: 45% 12%;
+    }
+}
+
+
+
+
+
