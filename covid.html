@@ -1,16 +1,22 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" 
     type="image/png" 
     href="assets/img/favicon16.png">
+
+    <!--========== BOX ICONS ==========-->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/covid.css">
-    <title>Document</title>
+
+<link rel="stylesheet" href="assets/css/covid.css">
+    <title>Alfa Sushi | Covid </title>
 </head>
 <body>
     <a href="#" class="scrolltop" id="scroll-top">
@@ -26,9 +32,9 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active-link">Menu</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__link">Menu</a></li>
                     <li class="nav__item"><a href="about.html" class="nav__link">About us</a></li>
-                    <li class="nav__item"><a href="delivery.html" class="nav__link">Delivery</a></li>
+                    <li class="nav__item"><a href="covid.html" class="nav__link active-link">Delivery</a></li>
                     <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
                 </ul>
             </div>
@@ -61,55 +67,56 @@
         </div>
     </section>
 
+<!--========== FOOTER ==========-->
+<footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                <div class="footer__content reveal__on__scroll">
+                    <h3 class="footer__title">
+                        <a href="#" class="footer__logo">
+                            <img src="assets/img/alfa-sushi-logo.svg" alt="Alfa Sushi logo">
+                        </a>
+                    </h3>
+                    <p class="footer__description">#sushican</p>
+                </div>
 
-    <footer class="footer section">
-        <div class="footer__container bd-container bd-grid">
-            <div class="footer__content reveal__on__scroll">
-                <h3 class="footer__title">
-                    <a href="#" class="footer__logo">
-                        <img src="assets/img/alfa-sushi-logo.svg" alt="Alfa Sushi logo">
-                    </a>
-                </h3>
-                <p class="footer__description">#sushican</p>
+                <div class="footer__content reveal__on__scroll">
+                    <h3 class="footer__title">Menu</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Specials</a></li>
+                        <li><a href="#" class="footer__link">Cold rolls</a></li>
+                        <li><a href="#" class="footer__link">Hot rolls</a></li>
+                        <li><a href="#" class="footer__link">Sets</a></li>
+                        <li><a href="#" class="footer__link">Noodles & Drinks</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content reveal__on__scroll">
+                    <h3 class="footer__title">Info</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Menu</a></li>
+                        <li><a href="#" class="footer__link">About us</a></li>
+                        <li><a href="#" class="footer__link">Delivery</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content reveal__on__scroll">
+                    <h3 class="footer__title">Social</h3>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
             </div>
 
-            <div class="footer__content reveal__on__scroll">
-                <h3 class="footer__title">Menu</h3>
-                <ul>
-                    <li><a href="#" class="footer__link">Specials</a></li>
-                    <li><a href="#" class="footer__link">Cold rolls</a></li>
-                    <li><a href="#" class="footer__link">Hot rolls</a></li>
-                    <li><a href="#" class="footer__link">Sets</a></li>
-                    <li><a href="#" class="footer__link">Noodles & Drinks</a></li>
-                </ul>
-            </div>
+            <p class="footer__copy">&#169; 2021 Alfa Sushi. All rights reserved</p>
+        </footer>
 
-            <div class="footer__content reveal__on__scroll">
-                <h3 class="footer__title">Info</h3>
-                <ul>
-                    <li><a href="#" class="footer__link">Menu</a></li>
-                    <li><a href="#" class="footer__link">About us</a></li>
-                    <li><a href="#" class="footer__link">Delivery</a></li>
-                </ul>
-            </div>
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-            <div class="footer__content reveal__on__scroll">
-                <h3 class="footer__title">Social</h3>
-                <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
-                <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
-            </div>
-        </div>
+        <!--========== Jquery ==========-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-        <p class="footer__copy">&#169; 2021 Alfa Sushi. All rights reserved</p>
-    </footer>
-
-
-
-
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-
-    <script src="assets/js/main.js"></script>
-</body>
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/home.js"></script>
+    </body>
 </html>

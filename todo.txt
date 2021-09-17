@@ -1,4 +1,7 @@
-- width 767 problem var real life testing is required
+Main page:
+
+
+-footer breakpoints also font sizes
 
 
 FUTURE UPDATES:
@@ -11,28 +14,20 @@ FUTURE UPDATES:
 
 
 About page:
-- desktop view hormetle alfa sushi biraz asagida +
-- footer elave ele +
 - butun kontentlerin sol terefi logoya paralel olsun (column-wise)
-- hormetle alfa sushi biraz asagida +
-
 
 
 
 index.php:
-- hero yazisinin fon size kicilmelidi responsivliyde  +
-- make grid as Avanqard  +
-- phone number click olan kimi actual zeng  +
-- logonun margin veya paddingleri +
-- 767 viewsunda bug var 767 olmalidi 766 kimi 
-- testing also rotate screen. 
+- testing also rotate screen 
 
 
 
 
-
-
-
-Teklifler.
+Teklifler:
 
 -About us'in headinglerinin animasiyasi slide ola biler (biri sagdan biri soldan gelib)
+
+
+
+Live testing:

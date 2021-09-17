@@ -253,6 +253,22 @@ img {
   border-radius: 50%;
 }
 
+/* Active link for menu name is changed for js */
+.active-link-food-menu {
+  position: relative;
+}
+
+.active-link-food-menu::before {
+  content: "";
+  position: absolute;
+  bottom: -0.75rem;
+  left: 45%;
+  width: 5px;
+  height: 5px;
+  background-color: var(--title-color);
+  border-radius: 50%;
+}
+
 /* Change background header */
 .scroll-header {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
@@ -338,7 +354,7 @@ img {
 
 /*========== PRODUCTS ==========*/
 .product__container {
-  grid-template-columns: repeat(2, 224px);
+  grid-template-columns: repeat(2, 128px);
   padding-bottom: 2rem;
 }
 
@@ -427,6 +443,7 @@ img {
 /*========== FOOTER ==========*/
 .footer__container {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
 }
 
 .footer__logo {
@@ -441,6 +458,7 @@ img {
 .footer__title {
   font-size: var(--h3-font-size);
 }
+
 
 .footer__link {
   display: inline-block;
@@ -469,6 +487,64 @@ img {
   margin-top: 4rem;
 }
 
+
+
+/* ! call modal */
+.number-modal-background-div{
+  display: none;
+  position:fixed;
+  z-index:998;
+  height:100%;
+  width:100%;
+  overflow-y: disabled;
+  overflow-x: disabled;
+  opacity: 50%;
+  background-color:#d1c7c8;
+
+}
+.number-icon-container{
+  display:none;
+}
+
+.number-modal-container{
+  display:none;
+  position:fixed;
+  width:100%;
+  height:100%;
+  z-index:999;
+}
+
+.number-modal-container-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-modal{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+}
+
+.modal-call{
+  margin-top:25px;
+  margin-right:25px;
+  margin-left:25px;
+}
+
+.modal-call:last-of-type{
+  margin-bottom:50px;
+}
+
+.modal-close{
+  align-self:flex-end;
+  width:20px;
+  margin:25px;
+}
+
 /*========== MEDIA QUERIES ==========*/
 
 
@@ -477,6 +553,9 @@ img {
 @media screen and (max-width: 767px) {
   body{
     margin-top: calc(var(--header-height) + 1.5);
+  }
+  .section{
+    padding-top:8rem;
   }
 
   .nav__menu,
@@ -516,6 +595,7 @@ img {
 
   .nav{
     height:calc(var(--header-height) + 1rem);
+    margin-bottom:1rem;
   }
 
   
@@ -648,6 +728,33 @@ img {
   }
 }
 
+
+@media screen and (min-width: 370px) {
+  .product__container {
+    grid-template-columns: repeat(2, 147px);
+    justify-content: center;
+  }
+
+}
+
+@media screen and (min-width: 430px) {
+  .product__container {
+    grid-template-columns: repeat(2, 180px);
+    justify-content: center;
+  }
+
+}
+
+@media screen and (min-width: 510px) {
+  .product__container {
+    grid-template-columns: repeat(2, 215px);
+    justify-content: center;
+  }
+
+}
+
+
+
 @media screen and (min-width: 576px) {
   /* .promo__container {
     grid-template-columns: repeat(2, 1fr);
@@ -681,13 +788,22 @@ img {
   }
 }
 
+@media screen and (min-width: 630px) {
+  .product__container {
+    grid-template-columns: repeat(2, 256px);
+    justify-content: center;
+  }
+
+}
+
+
 @media screen and (max-width:767px){
   .home__title{
     margin-top: 1.5rem;
   }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 767px){
   body {
     margin: 0;
   }
@@ -834,6 +950,31 @@ img {
   border-radius: 50%;
 }
 
+@media screen and (max-width:680px){
+  .home__title{
+    font-size: var(--h3-font-size);
+  }
+  .number-container{
+    display:none;
+  }
+  .number-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:20px;
+    height:20px;
+  }
+
+  .number-icon{
+    width:100%;
+  }
+
+
+
+}
+
+
+
 
 @media screen and (max-width:550px){
   .home__title{
@@ -843,7 +984,57 @@ img {
 
 @media screen and (max-width:450px){
   .home__title{
-    font-size: var(--normal-font-size);
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width:432px){
+  .home__title{
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width:416px){
+  .home__title{
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width:400px){
+  .home__title{
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width:384px){
+  .home__title{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:368px){
+  .home__title{
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width:353px){
+  .home__title{
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width:337px){
+  .home__title{
+    font-size: 17px;
+  }
+}
+
+
+@media screen and (max-width:320px){
+  .home__title{
+    font-size: 16px;
   }
 }
 

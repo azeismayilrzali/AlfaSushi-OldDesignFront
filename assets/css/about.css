@@ -90,7 +90,9 @@
 }
 
 
-
+img{
+    border-radius: 15%;
+}
 
 
  @media screen and (max-width:1028px){
