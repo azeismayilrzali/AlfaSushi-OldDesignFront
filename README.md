@@ -1,2 +1,1 @@
-# alfa-sushi-phase-3
-
+# Alfa sushi project front-end of old design
